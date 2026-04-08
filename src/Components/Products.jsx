@@ -1,5 +1,5 @@
 import ProductCard from "./ProductCard";
-
+import myImage from "/green.jpg";
 export default function Products() {
   return (
     <section className="products">
@@ -8,17 +8,17 @@ export default function Products() {
       <div className="card-grid">
         <ProductCard
           title="Mocha Mint Latte"
-          image="Chillo-UI\public\green.jpg"
+          image={myImage}
           color="#7ED957"
         />
         <ProductCard
           title="Coco Chillo"
-          image="Chillo-UI\public\blue.jpg"
+          image={myImage}
           color="#2EC4F1"
         />
         <ProductCard
           title="Hazelnut"
-          image="Chillo-UI\public\orange.jpg"
+          image={myImage}
           color="#FFB347"
         />
       </div>
