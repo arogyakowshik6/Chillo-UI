@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 440" width="200" height="440">
+  <defs>
+    <linearGradient id="bodyG_c" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#081e2e"/>
+      <stop offset="35%" stop-color="#0d2a3e"/>
+      <stop offset="70%" stop-color="#092232"/>
+      <stop offset="100%" stop-color="#061824"/>
+    </linearGradient>
+    <linearGradient id="topG_c" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a4060"/>
+      <stop offset="100%" stop-color="#0d2a3e"/>
+    </linearGradient>
+    <linearGradient id="shine_c" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="white" stop-opacity="0"/>
+      <stop offset="50%" stop-color="white" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="canClip_c">
+      <rect x="20" y="28" width="160" height="376" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <!-- Can body -->
+  <rect x="20" y="28" width="160" height="376" rx="18" fill="url(#bodyG_c)"/>
+
+  <!-- Bottom cap -->
+  <ellipse cx="100" cy="404" rx="80" ry="16" fill="#061824"/>
+  <ellipse cx="100" cy="404" rx="80" ry="16" fill="none" stroke="#0d2a3e" stroke-width="1"/>
+
+  <!-- Top cap -->
+  <ellipse cx="100" cy="28" rx="80" ry="16" fill="url(#topG_c)"/>
+
+  <!-- Tab -->
+  <rect x="88" y="14" width="24" height="16" rx="5" fill="#1e4a6a"/>
+  <rect x="94" y="11" width="12" height="6" rx="3" fill="#2a5a7a"/>
+
+  <!-- Cyan band top -->
+  <rect x="20" y="85" width="160" height="52" clip-path="url(#canClip_c)" fill="#2ec4f1"/>
+  <!-- Coral accent stripe -->
+  <rect x="20" y="133" width="160" height="8" clip-path="url(#canClip_c)" fill="#ff7a59"/>
+
+  <!-- Cyan band bottom -->
+  <rect x="20" y="300" width="160" height="52" clip-path="url(#canClip_c)" fill="#2ec4f1"/>
+  <rect x="20" y="296" width="160" height="8" clip-path="url(#canClip_c)" fill="#ff7a59"/>
+
+  <!-- Brand name -->
+  <text x="100" y="210" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="38" font-weight="900" fill="#f0ede8" letter-spacing="6">CHILLO</text>
+
+  <!-- Flavour name -->
+  <text x="100" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="9.5" font-weight="700" fill="#2ec4f1" letter-spacing="2.5">COCO CHILLO</text>
+
+  <!-- Sub label -->
+  <text x="100" y="272" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="600" fill="rgba(240,237,232,0.45)" letter-spacing="2">ENERGY COFFEE</text>
+
+  <!-- Volume -->
+  <text x="100" y="288" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="rgba(240,237,232,0.3)" letter-spacing="1">250 ml</text>
+
+  <!-- Band text -->
+  <text x="100" y="116" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="10" font-weight="900" fill="#061824" letter-spacing="3">ZERO SUGAR</text>
+  <text x="100" y="318" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="9" font-weight="900" fill="#061824" letter-spacing="2.5">120MG CAFFEINE</text>
+
+  <!-- Shine overlay -->
+  <rect x="20" y="28" width="160" height="376" rx="18" fill="url(#shine_c)"/>
+
+  <!-- Left shine strip -->
+  <rect x="36" y="44" width="16" height="346" rx="6" fill="white" fill-opacity="0.05" clip-path="url(#canClip_c)"/>
+</svg>
