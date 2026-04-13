@@ -8,7 +8,7 @@ const flavours = [
     num: "01",
     title: "Mocha Mint Latte",
     image: mochaImg,
-    color: "linear-gradient(145deg, #1a3a1a, #0f2a14)",
+    accentColor: "#7a9a28",
     description: "Rich espresso meets cool peppermint. A refreshing hit that keeps you sharp.",
     price: "£3.49",
     badge: "Best Seller",
@@ -17,7 +17,7 @@ const flavours = [
     num: "02",
     title: "Coco Chillo",
     image: cocoImg,
-    color: "linear-gradient(145deg, #0d2a38, #081e2e)",
+    accentColor: "#2a8aaa",
     description: "Smooth cold brew with toasted coconut. Tropically energised, dangerously smooth.",
     price: "£3.49",
   },
@@ -25,7 +25,7 @@ const flavours = [
     num: "03",
     title: "Hazelnut",
     image: hazelnutImg,
-    color: "linear-gradient(145deg, #2d1f0a, #1e1408)",
+    accentColor: "#c49228",
     description: "Velvety hazelnut praline over bold espresso. The classic, perfected.",
     price: "£3.49",
     badge: "New",
@@ -40,9 +40,7 @@ export default function Products() {
           <p className="section-label">Our Range</p>
           <h2 className="section-title">3 Bold Flavours</h2>
         </div>
-        <span className="section-link">
-          View all →
-        </span>
+        <span className="section-link">View all →</span>
       </div>
 
       <div className="card-grid">

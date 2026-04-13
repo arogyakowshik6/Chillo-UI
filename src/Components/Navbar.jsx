@@ -1,7 +1,9 @@
 export default function Navbar() {
   return (
     <nav className="navbar">
-      <h2 className="logo">CHILLO</h2>
+      <h2 className="logo">
+        CHILLO<span>®</span>
+      </h2>
 
       <ul className="nav-links">
         <li>Home</li>

@@ -2,10 +2,7 @@ export default function Hero() {
   return (
     <section className="hero">
       <div className="hero-text">
-        <div className="hero-eyebrow">
-          <span></span>
-          Premium Energy Coffee
-        </div>
+        <div className="hero-eyebrow">[ Premium Energy Coffee ]</div>
 
         <h1>
           BOOST
@@ -14,8 +11,8 @@ export default function Hero() {
         </h1>
 
         <p className="hero-sub">
-          Crafted for those who move fast. Three bold coffee flavours
-          engineered to fuel your day — naturally.
+          Crafted for those who move fast. Three bold coffee
+          flavours engineered to fuel your day — naturally.
         </p>
 
         <div className="hero-ctas">
@@ -47,10 +44,11 @@ export default function Hero() {
             <div className="orbit-dot"></div>
           </div>
           <div className="orbit orbit-2">
-            <div className="orbit-dot orbit-dot-lime"></div>
+            <div className="orbit-dot orbit-dot-olive"></div>
           </div>
 
           <div className="can">
+            <div className="can-scanlines"></div>
             <div className="can-top">
               <div className="can-tab"></div>
             </div>

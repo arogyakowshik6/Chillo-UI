@@ -12,6 +12,8 @@ export default function CTA() {
   return (
     <section className="cta">
       <div className="cta-inner">
+        <div className="cta-rule">✦ ORDER NOW ✦</div>
+
         <h2>
           Pick Your <span>Flavour</span>
         </h2>
@@ -33,19 +35,9 @@ export default function CTA() {
 
         <div className="cta-qty">
           <span className="qty-label">Qty</span>
-          <button
-            className="qty-btn"
-            onClick={() => setQty((q) => Math.max(1, q - 1))}
-          >
-            −
-          </button>
+          <button className="qty-btn" onClick={() => setQty((q) => Math.max(1, q - 1))}>−</button>
           <span className="qty-num">{qty}</span>
-          <button
-            className="qty-btn"
-            onClick={() => setQty((q) => Math.min(24, q + 1))}
-          >
-            +
-          </button>
+          <button className="qty-btn" onClick={() => setQty((q) => Math.min(24, q + 1))}>+</button>
         </div>
 
         <div className="cta-buy">
